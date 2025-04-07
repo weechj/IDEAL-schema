@@ -1,0 +1,238 @@
+# IDEAL Metadata Schema
+
+## 1. Title and Publication Details
+
+### Title
+✅ **Required**  
+📚 [DDI 2.5](https://ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/) | [ClinicalTrials.gov](https://clinicaltrials.gov/ct2/manage-recs/resources)
+
+**Definition:** *The full title of the paper.*  
+✏️ **Open text response**
+
+<details>
+<summary><strong>Notes for Pilot</strong></summary>
+
+- Can be automatically pulled into SurveyCTO.
+- Include subtitle in coding instructions.
+- Extracted from citation.
+- Tag if experiment was reported elsewhere.
+
+</details>
+
+### Citation
+✅ **Required**  
+📚 [DDI 2.5](https://ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/)
+
+**Definition:** *Complete bibliographic reference.*  
+✏️ **Open text response**
+
+### DOI/URL
+⚠️ **Optional**  
+📚 [DDI 2.5](https://ddialliance.org/Specification/DDI-Codebook/2.5/XMLSchema/)
+
+**Definition:** *DOI or URL to access the paper.*  
+✏️ **Open text response**
+
+## 2. Resources
+
+### Type of resource
+🔒 **Controlled Vocabulary**
+
+### URL of resource
+✏️ **Open text response**
+
+### Registration ID
+✏️ **Open text response**
+
+### Registry URL
+✏️ **Open text response**
+
+### Review board name
+✏️ **Open text response**
+
+### Review number
+✏️ **Open text response**
+
+## 3. Partners and Funders
+
+### Name of agency involved
+✏️ **Open text response**
+
+### Role of agencies
+🔒 **Controlled Vocabulary**
+
+### Type of agency
+🔒 **Controlled Vocabulary**
+
+## 4. Topics and Objectives
+
+### Topic of study
+🔒 **Controlled Vocabulary**
+
+### Keywords
+✏️ **Open text response**
+
+## 5. Sampling
+
+### Country
+🔒 **Controlled Vocabulary**
+
+### Sub-national location
+✏️ **Open text response**
+
+### Unit of randomization
+🔒 **Controlled Vocabulary and Open text**
+
+### Unit of analysis
+🔒 **Controlled Vocabulary and Open text**
+
+### Eligibility of experimental population
+✏️ **Open text response**
+
+### Recruitment of experimental sample
+✏️ **Open text response**
+
+### Sampling from recruited
+🔒 **Controlled Vocabulary**
+
+### Deviation from sample inclusion
+✏️ **Open text response**
+
+### Baseline average female share
+🔢 **Numeric**
+
+### Baseline average age
+🔢 **Numeric**
+
+## 6. Intervention
+
+### Name of intervention
+✏️ **Open text response**
+
+### Details of intervention
+✏️ **Open text response**
+
+### Name of arm
+✏️ **Open text response**
+
+### Number of randomization units per arm
+🔢 **Numeric**
+
+### Mapping of intervention to arms
+✏️ **Structured Format**
+
+### Intervention assignment strategy
+🔒 **Controlled Vocabulary**
+
+### Timeline of intervention
+📅 **Start and End Date**
+
+## 7. Outcome
+
+### Name of the outcome measure
+✏️ **Open text response**
+
+### Outcome measure category
+🔒 **Controlled Vocabulary**
+
+### Outcome measurement tool
+✏️ **Open text response**
+
+### Outcome measure statistical type
+🔒 **Controlled Vocabulary**
+
+### Outcome measure standardized
+🔒 **Yes/No/Don't Know**
+
+### Standardization description
+✏️ **Open text response**
+
+### Outcome measure coding
+🔒 **Yes/No/Ambiguous/Don't Know**
+
+### Outcome data source
+🔒 **Controlled Vocabulary**
+
+### Outcome measure collection start date
+📅 **Date**
+
+### Outcome measure collection end date
+📅 **Date**
+
+### Outcome mean
+🔢 **Numeric**
+
+### Outcome SD
+🔢 **Numeric**
+
+### Outcome sample size
+🔢 **Numeric**
+
+### Additional information for clustered RCTs
+✏️ **Open text/Numeric**
+
+## 8. Estimates
+
+### Estimation parameter
+🔒 **Controlled Vocabulary**
+
+### Estimand
+🔒 **Controlled Vocabulary**
+
+### Null hypothesis
+🔒 **Controlled Vocabulary**
+
+### Statistical test of hypothesis
+🔒 **Controlled Vocabulary**
+
+### Contrast for the treatment effect
+✏️ **Open text response**
+
+### Estimate of the treatment effect
+🔢 **Numeric**
+
+### Unit of measure of the treatment effect
+✏️ **Open text response**
+
+### Precision
+🔒 **Controlled Vocabulary**
+
+### Precision value
+🔢 **Numeric**
+
+### Subgroup of heterogeneous analysis
+🔒 **Controlled Vocabulary**
+
+### Description of heterogeneous analysis
+✏️ **Open text response**
+
+### Estimates of heterogeneous treatment effects
+✏️ **Structured Response**
+
+## 9. Quality and Robustness
+
+### Attrition
+🔢 **Numeric**
+
+### Dealing with attrition
+🔒 **Controlled Vocabulary**
+
+### Balance test
+🔒 **Yes/No/Not reported/Don't know**
+
+### Compliance Control
+🔢 **Numeric**
+
+### Compliance Treatment
+🔢 **Numeric**
+
+### Covariates included
+✏️ **Open text response**
+
+### Imbalanced covariates included
+🔒 **Yes/No/Other**
+
+## 10. Coding Tool Version
+
+### Coding tool name and version
+🔒 **Controlled Vocabulary**
